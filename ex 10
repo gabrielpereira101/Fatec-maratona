@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+	double n1, media, cont2=0;
+
+	int i, cont1=0;
+	
+	for(i=0;i<6;i++){
+		scanf("%lf", &n1);
+			if(n1>0){
+				cont1++;
+				cont2 = cont2 + n1;				
+	}	
+}
+		media = cont2/cont1;
+		
+		printf("%d valores positivos\n", cont1);
+		printf("%.1lf\n", media);
+		
+		
+		return 0;
+		
+	}
