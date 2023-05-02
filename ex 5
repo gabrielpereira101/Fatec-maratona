@@ -1,0 +1,16 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int dis;
+    double km, total;
+    
+    scanf("%d", &dis);
+    scanf("%lf", &km);
+    
+    total = dis/km;
+    
+    printf("%.3lf km/l\n", total);
+ 
+    return 0;
+}
