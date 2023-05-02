@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+	
+	
+	int i, a, q;
+	
+	scanf("%d", &a);
+	
+	for(i=0+1;i<a+1;i++){
+		if(i%2==0){
+			q = i*i;
+			printf("%d^2 = %d\n", i, q);
+		}
+	}
+	
+
+	
+	return 0;
+}
