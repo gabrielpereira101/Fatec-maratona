@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main()
+{
+	
+	
+	int i, a, b;
+	int x, y, cont;
+	
+	scanf("%d%d", &a, &b);
+	
+	if(a>b)
+		x = a, y = b;
+			else if(a<b)
+				x = b, y=a;
+					else if(a == 0 && b == 0)
+						x = 0, y = 0;
+	for(i=y+1, cont=0;i<x;i++){
+		if(i%2!=0){
+			cont = cont + i;
+	
+		}
+	}
+	
+	printf("%d\n", cont);
+	
+	
+	
+	
+	return 0;
+}
