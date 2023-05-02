@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    int c, q;
+    double value;
+    
+    scanf("%d %d", &c, &q);
+    
+    if (c == 1)
+        value = 4.0;
+    else if (c == 2)
+        value = 4.5;
+    else if (c == 3)
+        value = 5.0;
+    else if (c == 4)
+        value = 2.0;
+    else if (c == 5)
+        value = 1.5;
+    else
+        return 0;
+    
+    double total = value * q;
+    printf("Total: R$ %.2lf\n", total);
+    
+    return 0;
+}
